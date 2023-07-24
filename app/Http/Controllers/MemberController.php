@@ -8,6 +8,6 @@ class MemberController extends Controller
 {
     public function index()
     {
-        return "從main開兩條分支"; 
+        return "兩條分支同時進行，準備解衝突"; 
     }
 }
