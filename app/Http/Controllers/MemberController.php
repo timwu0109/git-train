@@ -31,5 +31,10 @@ class MemberController extends Controller
         return '編輯使用者資料'; 
     }
 
+    public function update()
+    {
+        return '編輯完使用者存檔'
+    }
+
 
 }
