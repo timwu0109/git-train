@@ -38,8 +38,6 @@ class MemberController extends Controller
 
     public function destroy()
     {
-        return '刪除使用者' ;
+       return '使用者刪除';
     }
-
-
 }
