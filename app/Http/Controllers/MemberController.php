@@ -13,6 +13,11 @@ class MemberController extends Controller
 
     public function create() 
     {
-        return '新增資料'ㄤ
+        return '新增資料';
+    }
+
+    public function store()
+    {
+        return '儲存資料';
     }
 }
