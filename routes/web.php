@@ -23,5 +23,8 @@ Route::get('/', function () {
 
 Route::middleware('auth')->group(function(){
     Route::resource('product' , ProductController::class);
-    Route::resource('member' , MemberController::class);
+});
+
+Route::prefix('member')->group(function(){
+    Route::get('' , [MemberController::class , 'index']);
 });
