@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class MemberController extends Controller
 {
-    public function()
+    public function index()
     {
-        return "解衝突"; 
+        return "從main開兩條分支"; 
     }
 }
