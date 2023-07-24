@@ -23,6 +23,13 @@ class MemberController extends Controller
 
     public function show() 
     {
-        return '顯示個人頁面';
+        return '顯示使用者頁面才對';
     }
+
+    public function edit()
+    {
+        return '編輯使用者資料'; 
+    }
+
+
 }
