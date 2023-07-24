@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class TrainController extends Controller
 {
-    public function index() 
+    public function show() 
     {
-        return 123;
+        return 456;
     }
 }
