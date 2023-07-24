@@ -8,6 +8,6 @@ class MemberController extends Controller
 {
     public function()
     {
-        return "練習中"; 
+        return "解衝突"; 
     }
 }
