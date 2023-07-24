@@ -26,5 +26,6 @@ Route::middleware('auth')->group(function(){
 });
 
 Route::prefix('member')->group(function(){
-    Route::get('' , [MemberController::class , 'index']);
+    Route::get('' , [MemberController::class , 'index'])->name('member.index');
+    Route::post('' , [MemberController::class , 'create'])->name('member.create');
 });
