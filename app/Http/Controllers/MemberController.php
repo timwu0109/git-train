@@ -20,4 +20,9 @@ class MemberController extends Controller
     {
         return '儲存資料';
     }
+
+    public function show() 
+    {
+        return '顯示個人頁面';
+    }
 }
