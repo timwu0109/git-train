@@ -33,7 +33,12 @@ class MemberController extends Controller
 
     public function update()
     {
-        return '編輯完使用者存檔'
+        return '編輯完使用者存檔';
+    }
+
+    public function destroy()
+    {
+        return '刪除使用者' ;
     }
 
 
