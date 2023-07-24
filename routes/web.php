@@ -21,5 +21,5 @@ Route::get('/', function () {
 
 
 Route::middleware('auth')->group(function(){
-    Route::resource('product' , ProductController::class);
+    Route::resource('comment' , ProductController::class);
 });
